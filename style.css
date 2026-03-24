@@ -172,6 +172,12 @@ h3 {
   background: rgba(0,0,0,0.5);
 }
 
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 /* ── FOOTER ── */
 footer {
   background-color: #ff8fab;
