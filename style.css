@@ -8,8 +8,6 @@ body {
   background-color: #ffb6c1;
   color: #111;
   font-family: Arial, sans-serif;
-  background-image: url('links/image-rose.jpg');
-  position: fixed;
 }
 
 /* ── HEADER ── */
@@ -20,6 +18,10 @@ header {
   padding: 16px 32px;
   background-color: #ff8fab;
   border-bottom: 2px solid #111;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header-left {
